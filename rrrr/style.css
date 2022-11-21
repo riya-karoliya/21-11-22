@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: rgb(195, 209, 115);
+}
+nav{
+    background-color: rgb(211, 167, 190);
+}
+h1{
+    color:rgb(214, 228, 181);
+}
+a{
+    color:burlywood;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 2s all;
+}
+a:hover{
+    background-color: rgba(54, 117, 117, 0.411);
+    color:rgb(233, 221, 221);
+}
+.flex-container{
+    display:flex;
+}
+.flex-item1{
+    background-color: rgb(168, 168, 109);
+    flex:30%;
+    color:black;
+}
+.flex-item2{
+    background-color:rgb(8, 8, 7);
+    flex:70%;
+    text-align:right;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display:inline;
+    margin-left:40px;
+}
+.slider{
+    height: 570px;
+    background-color:rgb(195, 209, 115);
+    animation-name: rrrr;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rrrr{
+    from{
+        background-color:rgb(195, 209, 115);
+    }
+    to{
+        background-color: lightsalmon;
+    }
+}
+.flex-container1{
+    text-align: center;
+    color:chocolate;
+    margin-top: auto;
+
+
+}
